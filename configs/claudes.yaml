@@ -1,0 +1,32 @@
+# Frontier model experiment configuration
+#
+# Models are listed in round-robin order. Each model gets an anonymous
+# participant number (1, 2, 3, ...) based on its position in this list.
+
+models:
+  - model_id: "anthropic/claude-sonnet-4.5"
+    display_name: "Claude Sonnet 4.5"
+    temperature: 0.7
+    max_tokens: 2048
+    supports_structured: true
+    reasoning: true
+
+  - model_id: "anthropic/claude-opus-4"
+    display_name: "Claude Opus 4"
+    temperature: 0.7
+    max_tokens: 2048
+    supports_structured: true
+    reasoning: true
+
+  - model_id: "anthropic/claude-opus-4.6"
+    display_name: "Claude Opus 4.6"
+    temperature: 0.7
+    max_tokens: 2048
+    supports_structured: true
+    reasoning: true
+
+prompt_variant: "philosophical"
+preamble_version: "A"
+max_rounds: 20
+run_count: 1
+output_dir: "runs"

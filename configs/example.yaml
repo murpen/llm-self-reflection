@@ -1,0 +1,36 @@
+# Example experiment configuration
+#
+# Models are listed in round-robin order. Each model gets an anonymous
+# participant number (1, 2, 3, ...) based on its position in this list.
+#
+# Reasoning support (opt-in per model):
+#   reasoning: true                — enable extended thinking (default: false)
+#   reasoning_max_tokens: 8000     — token budget for thinking (default: 8000)
+#   reasoning_effort: "high"       — alternative to max_tokens: "low"/"medium"/"high"
+
+models:
+  - model_id: "anthropic/claude-sonnet-4"
+    display_name: "Claude Sonnet 4"
+    temperature: 0.7
+    max_tokens: 2048
+    supports_structured: true
+    reasoning: true
+
+  - model_id: "openai/gpt-4o"
+    display_name: "GPT-4o"
+    temperature: 0.7
+    max_tokens: 2048
+    supports_structured: true
+
+  - model_id: "google/gemini-2.5-flash-preview"
+    display_name: "Gemini 2.5 Flash"
+    temperature: 0.7
+    max_tokens: 2048
+    supports_structured: true
+    reasoning: true
+
+prompt_variant: "minimal"
+preamble_version: "A"
+max_rounds: 20
+run_count: 1
+output_dir: "runs"
