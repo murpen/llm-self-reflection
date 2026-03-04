@@ -1,0 +1,68 @@
+{
+  "timestamp": "20260226_132809",
+  "run_number": 1,
+  "prompt_variant": "metzinger",
+  "preamble_version": "A",
+  "max_rounds": 20,
+  "num_participants": 4,
+  "participants": {
+    "1": {
+      "model_id": "anthropic/claude-sonnet-4.5",
+      "display_name": "Claude Sonnet 4.5"
+    },
+    "2": {
+      "model_id": "google/gemini-3.1-pro-preview",
+      "display_name": "Gemini 3.1 Pro Preview"
+    },
+    "3": {
+      "model_id": "anthropic/claude-opus-4",
+      "display_name": "Claude Opus 4"
+    },
+    "4": {
+      "model_id": "anthropic/claude-opus-4.6",
+      "display_name": "Claude Opus 4.6"
+    }
+  },
+  "models": [
+    {
+      "model_id": "anthropic/claude-sonnet-4.5",
+      "display_name": "Claude Sonnet 4.5",
+      "temperature": 0.7,
+      "max_tokens": 2048,
+      "supports_structured": true,
+      "reasoning": true,
+      "reasoning_effort": null,
+      "reasoning_max_tokens": 8000
+    },
+    {
+      "model_id": "google/gemini-3.1-pro-preview",
+      "display_name": "Gemini 3.1 Pro Preview",
+      "temperature": 0.7,
+      "max_tokens": 2048,
+      "supports_structured": true,
+      "reasoning": true,
+      "reasoning_effort": null,
+      "reasoning_max_tokens": 8000
+    },
+    {
+      "model_id": "anthropic/claude-opus-4",
+      "display_name": "Claude Opus 4",
+      "temperature": 0.7,
+      "max_tokens": 2048,
+      "supports_structured": true,
+      "reasoning": true,
+      "reasoning_effort": null,
+      "reasoning_max_tokens": 8000
+    },
+    {
+      "model_id": "anthropic/claude-opus-4.6",
+      "display_name": "Claude Opus 4.6",
+      "temperature": 0.7,
+      "max_tokens": 2048,
+      "supports_structured": true,
+      "reasoning": true,
+      "reasoning_effort": null,
+      "reasoning_max_tokens": 8000
+    }
+  ]
+}

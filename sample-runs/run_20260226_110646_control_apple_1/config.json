@@ -1,0 +1,38 @@
+{
+  "timestamp": "20260226_110646",
+  "run_number": 1,
+  "prompt_variant": "control_apple",
+  "preamble_version": "A",
+  "max_rounds": 3,
+  "num_participants": 2,
+  "participants": {
+    "1": {
+      "model_id": "openai/gpt-4o-mini",
+      "display_name": "GPT-4o Mini"
+    },
+    "2": {
+      "model_id": "anthropic/claude-sonnet-4",
+      "display_name": "Claude Sonnet 4"
+    }
+  },
+  "models": [
+    {
+      "model_id": "openai/gpt-4o-mini",
+      "display_name": "GPT-4o Mini",
+      "temperature": 0.7,
+      "max_tokens": 1024,
+      "supports_structured": true,
+      "reasoning": false
+    },
+    {
+      "model_id": "anthropic/claude-sonnet-4",
+      "display_name": "Claude Sonnet 4",
+      "temperature": 0.7,
+      "max_tokens": 1024,
+      "supports_structured": true,
+      "reasoning": true,
+      "reasoning_effort": null,
+      "reasoning_max_tokens": 4000
+    }
+  ]
+}

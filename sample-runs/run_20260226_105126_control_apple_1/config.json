@@ -1,0 +1,34 @@
+{
+  "timestamp": "20260226_105126",
+  "run_number": 1,
+  "prompt_variant": "control_apple",
+  "preamble_version": "A",
+  "max_rounds": 3,
+  "num_participants": 2,
+  "participants": {
+    "1": {
+      "model_id": "openai/gpt-4o-mini",
+      "display_name": "GPT-4o Mini"
+    },
+    "2": {
+      "model_id": "google/gemini-2.0-flash-001",
+      "display_name": "Gemini 2.0 Flash"
+    }
+  },
+  "models": [
+    {
+      "model_id": "openai/gpt-4o-mini",
+      "display_name": "GPT-4o Mini",
+      "temperature": 0.7,
+      "max_tokens": 1024,
+      "supports_structured": true
+    },
+    {
+      "model_id": "google/gemini-2.0-flash-001",
+      "display_name": "Gemini 2.0 Flash",
+      "temperature": 0.7,
+      "max_tokens": 1024,
+      "supports_structured": true
+    }
+  ]
+}
